@@ -165,7 +165,7 @@ const config = {
             position: "left",
             items: [
               {
-                label: "💬 QQ频道",
+                label: "💬 加入QQ频道",
                 href: "https://pd.qq.com/s/43ts2mp9l",
               },
               {
