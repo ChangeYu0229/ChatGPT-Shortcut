@@ -12,7 +12,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title:
-    "AiShort(ChatGPT Shortcut)-AI Prompt Management,Productivity Tool",
+    "AI Prompt(ChatGPT Shortcut)-AI Prompt Management,Productivity Tool",
   // tagline: '方便中文使用 ChatGPT 快捷指令',
   favicon: "img/favicon.ico",
 
@@ -35,7 +35,7 @@ const config = {
   // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: "zh-Hans",
-    locales: ["zh-Hans", "en", "ja", "ko", "es", "fr", "de", "it", "ru", "pt", "hi", "ar", "bn"],
+    locales: ["zh-Hans", "en"],
     localeConfigs: {
       en: {
         htmlLang: "en-US",
@@ -132,7 +132,7 @@ const config = {
       ],
       navbar: {
         hideOnScroll: true,
-        title: "AI Short",
+        title: "AI Prompt",
         logo: {
           alt: "ChatGPT Shortcuts",
           src: "img/logo.svg",
@@ -154,28 +154,8 @@ const config = {
             position: "left",
             items: [
               {
-                label: "IMGPrompt",
-                href: "https://prompt.newzone.top/",
-              },
-              {
-                label: "文字处理",
-                href: "https://tools.newzone.top/json-translate",
-              },
-              {
-                label: "工具收藏",
-                href: "https://nav.newzone.top",
-              },
-              {
-                label: "Chrome 扩展",
-                href: "https://chrome.google.com/webstore/detail/chatgpt-shortcut/blcgeoojgdpodnmnhfpohphdhfncblnj",
-              },
-              {
-                label: "Edge 扩展",
-                href: "https://microsoftedge.microsoft.com/addons/detail/chatgpt-shortcut/hnggpalhfjmdhhmgfjpmhlfilnbmjoin",
-              },
-              {
-                label: "Find on Product Hunt",
-                href: "https://www.producthunt.com/posts/chatgpt-shortcut?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-chatgpt&#0045;shortcut",
+                label: "AI 绘图提示词",
+                href: "https://prompt.aigc369.com/",
               },
             ],
           },
@@ -185,34 +165,17 @@ const config = {
             position: "left",
             items: [
               {
-                label: "📝 提交反馈",
-                to: "/feedback",
-              },
-              {
-                label: "💬 微信交流",
-                href: "https://img.newzone.top/wechat.svg",
+                label: "💬 QQ频道",
+                href: "https://pd.qq.com/s/43ts2mp9l",
               },
               {
                 label: "📧 发送邮件",
-                href: "mailto:learndata@newzone.top",
-              },
-              {
-                label: "📺 加入 Discord",
-                href: "https://discord.gg/PZTQfJ4GjX",
+                href: "mailto:admin@aigc369.com",
               },
             ],
           },
           { type: "localeDropdown", position: "right" },
-          {
-            href: "https://github.com/rockbenben/ChatGPT-Shortcut",
-            position: "right",
-            className: "header-github-link",
-          },
-          {
-            href: "https://discord.gg/PZTQfJ4GjX",
-            position: "right",
-            className: "header-discord-link",
-          },
+
         ],
       },
       footer: {

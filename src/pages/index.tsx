@@ -153,7 +153,7 @@ function ShowcaseHeader() {
   return (
     <section className={styles.mobileMarginAdjust + " text--center"}>
       <Heading as='h1' className={styles.hideOnMobile}>
-        AI Short
+        AI Prompt
       </Heading>
       <p>{SLOGAN}</p>
       <UserStatus hideLinks={{ userCenter: true, myFavorite: false }} />
